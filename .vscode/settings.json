@@ -1,0 +1,12 @@
+{
+    "sqltools.connections": [
+        {
+            "previewLimit": 50,
+            "driver": "SQLite",
+            "name": "Prueba",
+            "group": "Hola",
+            "database": "${workspaceFolder:Python}/Master Python/19-Bases-de-datos/pruebas.db"
+        }
+    ],
+    "sqltools.useNodeRuntime": true
+}
