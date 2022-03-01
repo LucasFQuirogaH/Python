@@ -1,0 +1,8 @@
+Pararse en el directorio donde se hara el proyecto
+python.exe C:\Users\inglu\AppData\Roaming\Python\Python310\Scripts\django-admin.exe startproject Pro1
+
+
+python manage.py migrate          para activar el proyecto y conectarlo a SQLite
+
+
+python manage.py runserver        para correr el servidor
