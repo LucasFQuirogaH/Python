@@ -15,9 +15,15 @@ Including another URLconf
 """
 from django.contrib import admin
 from django.urls import path
-from Pro1.views import saludo
+from Pro1.views import calculaEdad, calculaEdad2, dameFecha, despedida, saludo , despedida
 
 urlpatterns = [
     path('admin/', admin.site.urls),
-    path('saludo', saludo),
+    path('saludo/', saludo),
+    path('despedida/', despedida),
+    path('dameFecha/', dameFecha),
+    path('edades/<int:anio>' , calculaEdad), # Ahi le pasamos el parametro y lwe indicamos que es entero para que lo convierta en entero
+    path('edades2/<int:edad>/<int:anio>' , calculaEdad2), # Tal cual lo coloques entre literales tal cual es escribirlo en la URL
 ]
+
+# se puede agregar urls o vistas hacia otros, como jsps...
