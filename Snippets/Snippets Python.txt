@@ -1,0 +1,1817 @@
+{
+
+	"funcion": {
+	"prefix": "def",
+	"body": [
+	"## Funciones: Busqueda lineal ---------------------------------------------------------------------------------",
+	"# %%",
+	"def UnaFuncion(Parametros):",
+	"#Contrato:",
+	"# Precondicion:",
+	"# Poscondicion:",
+	"	return None",
+	],
+	"description": "Inserta una funcion"
+	} ,
+
+	"for": {
+	"prefix": "for",
+	"body": [
+	"for i in range(N):",
+	],
+	"description": "Inserta un for"
+} ,
+
+	"if": {
+	"prefix": "if",
+	"body": [
+	"if A == B:",
+	"	",
+	],
+	"description": "Inserta un if"
+} ,
+
+	"input": {
+	"prefix": "input",
+	"body": [
+	"input(\" \")",
+	],
+	"description": "Inserta un input"
+
+} ,
+
+"case": {
+	"prefix": "case",
+	"body": [
+	"if A == 0:",
+	"elif B == 0:",
+	"elif C == 0:",
+	"elif D == 0:",
+	"else:",
+	],
+	"description": "Inserta un case"
+
+} ,
+
+"buscar en string": {
+	"prefix": "buscar",
+	"body": [
+	"titulo.find(\"vida\")"
+	],
+	"description": "Buscar en String"
+} ,
+
+"reemplazar en string": {
+	"prefix": "reemp",
+	"body": [
+	"titulo.replace(\"vida\", \"nena\")"
+	],
+	"description": "Reemplazar enstring en String"
+} ,
+
+"poner en mayusculas": {
+	"prefix": "mayus",
+	"body": [
+	"nombre.upper()"
+	],
+	"description": "Poner en Mayusculas"
+} ,
+
+"poner en minusculas": {
+	"prefix": "minus",
+	"body": [
+	"nombre.lower()"
+	],
+	"description": "Poner en Mayusculas"
+
+} ,
+
+"convertir a lista": {
+	"prefix": "lis",
+	"body": [
+	"list ()"
+	],
+	"description": "Convertir a lista"
+} ,
+
+"agregar a lista": {
+	"prefix": "app",
+	"body": [
+	"cantantes.append (\" \")"
+	],
+	"description": "Convertir a lista"
+} ,
+
+"agregar a lista": {
+	"prefix": "agreg",
+	"body": [
+	"cantantes.append (\" \")"
+	],
+	"description": "Convertir a lista"
+} ,
+
+"insertar elemento nuevo a la lista": {
+	"prefix": "agreg",
+	"body": [
+	"cantantes.insert( 1 , \"maluma\")"
+	],
+	"description": "insertar elemento nuevo a la lista"
+} ,
+
+"traes de la lista sin reposicion": {
+	"prefix": "extr",
+	"body": [
+	"cantantes.pop(3)"
+	],
+	"description": "traes de la lista sin reposicion"
+}  ,
+
+"invertir el orden de la lista": {
+	"prefix": "inv",
+	"body": [
+	"numeros.reverse()"
+	],
+	"description": "invertir el orden de la lista"
+} ,
+
+"tamaño de la lista": {
+	"prefix": "tam",
+	"body": [
+		"len(cantantes)"
+	],
+	"description": "tamaño de la lista"
+} ,
+
+"contar elementos de lista": {
+	"prefix": "cont",
+	"body": [
+		"numeros.count(9)"
+	],
+	"description": "contar elementos de lista"
+} ,
+
+"crear diccionario con key y value": {
+	"prefix": "dic",
+	"body": [
+		"persona ={",
+			"\"nombre\" : \"Lucas\" ,",
+			"\"apellido\" : \"Quiroga\" ,",
+			"\"correo\" : \"lucquiferhotmail.com\" }",
+		],
+
+	"description": "crear diccionario"
+
+} ,
+
+"agregar elemento a diccionario ": {
+	"prefix": "agreg",
+	"body": [
+		"personas.add(\"Mariana\")"
+		],
+
+	"description": "agregar elemento a diccionario"
+
+} ,
+
+"quitar elemento a diccionario ": {
+	"prefix": "quitar",
+	"body": [
+		"personas.remove(\"Francisco\")",
+		"del s['fecha']",
+		],
+
+	"description": "agregar elemento a diccionario"
+
+} ,
+
+"Encabezado Total ": {
+	"prefix": "encab",
+	"body": [
+
+		"\"\"\"------------------------------------------------------------------------------------------------------------",
+		"Costo Camion modificado para importar modulos.",
+		"Ing.Lucas F. Quiroga H. Fecha: 17/04/2021 Retroceder nunca, rendirse jamas",
+		"------------------------------------------------------------------------------------------------------------\"\"\"",
+		"# Import ------------------------------------------------------------------------------------------------------",
+		"# %%",
+		"",
+		"",
+		"",
+
+		"# Funciones ---------------------------------------------------------------------------------------------------",
+		"",
+		"",
+		"",
+		"",
+		"",
+		"",
+		"## Funciones: Funcion principal Main --------------------------------------------------------------------------",
+		"# %%",
+		"def main():",
+		"# El main como programa principal",
+		"	return None",
+		"	",
+		"# Main  -------------------------------------------------------------------------------------------------------",
+		"# %%",
+		"if __name__ == '__main__':",
+    	"	main()",
+	],
+	"description": "Encabezado total"
+
+} ,
+
+"encabezador principal ": {
+	"prefix": "encab",
+	"body": [
+		"\"\"\"------------------------------------------------------------------------------------------------------------",
+		"Ing.Lucas F. Quiroga H. Fecha: 17/04/2021 Retroceder nunca, rendirse jamas",
+		"------------------------------------------------------------------------------------------------------------\"\"\"",
+	],
+
+	"description": "encabezador principal"
+
+} ,
+
+"encabezador de las funciones ": {
+	"prefix": "func",
+	"body": [
+		"# Funciones ---------------------------------------------------------------------------------------------------"
+		],
+
+	"description": "encabezador de las funciones"
+} ,
+
+"encabezador de un funcion ": {
+	"prefix": "func",
+	"body": [
+		"## Funciones: Busqueda lineal ---------------------------------------------------------------------------------",
+		"# %%",
+		"def UnaFuncion(Parametros):",
+		"#Contrato:",
+		"# Precondicion:",
+		"# Poscondicion:",
+		"	return None",
+	],
+
+	"description": "encabezador de las funciones"
+} ,
+
+"encabezador del main ": {
+	"prefix": "main",
+	"body": [
+		"# Main  --------------------------------------------------------------------------------------------------------",
+		"# %%",
+		"while(1):",
+		],
+
+	"description": "encabezador del main"
+} ,
+
+"encabezador del main ": {
+	"prefix": "encab",
+	"body": [
+		"# Main  --------------------------------------------------------------------------------------------------------",
+		"# %%",
+		"while(1):",
+		],
+
+	"description": "encabezador del main"
+} ,
+
+"encabezador de una funcion ": {
+	"prefix": "encab",
+	"body": [
+		"## Funciones: Busqueda lineal ---------------------------------------------------------------------------------",
+		"# %%",
+		],
+
+	"description": "encabezador del main"
+} ,
+
+"insertar la fecha ": {
+	"prefix": "fech",
+	"body": [
+		"datetime.date.today()"
+		],
+
+	"description": "insertar la fecha "
+} ,
+
+"agregar una carpeta": {
+	"prefix": "carp",
+	"body": [
+		"from io import open",
+		"import pathlib",
+		"import shutil",
+		"import os",
+		"import os.path",
+		"if not (os.path.isdir(\"./mi_carpeta\")):"
+		],
+
+	"description": "agregar una carpeta"
+} ,
+
+"eliminar una carpeta": {
+	"prefix": "carp",
+	"body": [
+		"from io import open",
+		"import pathlib",
+		"import shutil",
+		"import os",
+		"import os.path",
+		"if not (os.path.isdir(\"./mi_carpeta\")):"
+		],
+
+	"description": "eliminar una carpeta"
+} ,
+
+"Archivos completos" : {
+	"prefix": "arch",
+	"body": [
+	"import pathlib",
+	"import shutil",
+	"import os",
+	"import os.path",
+	"#Abrir un archivo -----------------",
+	"archivo = open (\"14-Sistemas-de-archivos/fichero_texto.txt\" , \"a+\")",
+	"",
+	"#Escribir un archivo -----------------",
+	"archivo.write(\"Hola como estas???\")",
+	"",
+	"#Cerrar un archivo -----------------",
+	"archivo.close()",
+	"",
+	"#Copiar un archivo -----------------",
+	"shutil.copyfile(\"14-Sistemas-de-archivos/fichero_texto.txt\" , \"11-Ejecicios2/ficheroCopiado.txt\")",
+	"",
+	"#Mover un archivo -----------------",
+	"shutil.move(\"11-Ejecicios2/ficheroCopiado.txt\" , \"14-Sistemas-de-archivos/fichero_texto_Copiado.txt\")",
+	"",
+	"#omprobar si existe un archivo -----------------",
+	"if(os.path.isfile(os.path.abspath(\"./\") + \"/fichero_texto.txt\")):",
+		"print(\"El archivo esta\")",
+	"else:",
+		"print(\"El archivo no esta\")",
+
+	"#Para saber en que directorio estoy",
+	"import os",
+	"print(os.getcwd())",
+
+	"import gzip",
+	"with gzip.open(\"../Data/camion.csv.gz\", \"rt\") as f:",
+
+	"import os",
+	"import matplotlib.pyplot as plt",
+	"import numpy as np",
+	"import pprint",
+	"os.path.join(\"Data\", \"arbolado-en-espacios-verdes.csv\")",
+	"",
+	"",
+	"",
+	"",
+	"with open(Nombre , \"r\" , encoding=\"utf8\") as Creacion:",
+	"Lectura = csv.reader(Creacion)",
+	"cabecera = next(Lectura)",
+
+	],
+	"description": "Archivos completos"
+}  ,
+
+"Manejo de Errores" : {
+	"prefix": "try",
+	"body": [
+	"try:",
+	"except ValueError:",
+		"print (\"Ingrese un valor correcto\")",
+	"except TypeError:",
+		"print (\"Debe castear los valores\")",
+	"raise RuntimeError(f\"{nombre} no autorizado\")",
+	"else:",
+	"print(\"todo funciono correctamente\")",
+	"Finally:",
+	"print(\"Buenisimo\")",
+	"",
+	"raise ValueError(\"No es correcto\")",
+	],
+
+	"description": "Manejo de Errores"
+} ,
+
+"Objetos completos" : {
+	"prefix": "obj",
+	"body": [
+		"#Definicion de clase ----------",
+		"class coche:",
+			"#Atributos",
+			"color = \"Rojo\"",
+			"modelo = \"Ferrari\"",
+			"velocidad = 300",
+		"",
+		"#Definicion de set ---------",
+		"def setColor(self, nuevoColor):",
+        "self.color = nuevoColor",
+		"#Definicion de get",
+		"def getColor(self):",
+			"return self.color",
+		"",
+		"#Creacion de instancias ---------------------",
+		"print(\"Del coche comun----------------------------------------------------------------------------------------\")",
+		"auto = coche()",
+		"print(\"Su color por defecto es: \" , auto.getColor())",
+		"auto.setColor(\"Verde\")",
+		"print(\"Su nuevo color es: \" , auto.getColor())",
+		"",
+		"# Otra, Utilitario",
+		"print(\"Del Utilitario----------------------------------------------------------------------------------------\")",
+		"utilitario = coche()",
+		"print(\"Su color por defecto es: \" , utilitario.getColor())",
+		"utilitario.setColor(\"Gris\")",
+		"print(\"Su nuevo color es: \" , utilitario.getColor())",
+		"print(\"Su velocidad por defecto es: \" , utilitario.getVelocidad())",
+		"",
+		"#Constructor",
+		"def __init__(self, colorinit, modeloinit, velocidadinit):",
+        "self.color = colorinit",
+        "self.modelo = modeloinit",
+        "self.velocidad = velocidadinit",
+		"",
+		"#Activacion de la clase",
+		"from coche import coche",
+
+		"fitito = coche(\"azul\" , \"Fiat 600\" , 90)",
+		"print(fitito.getTotal())",
+
+		"Gol = coche(\"Blanco\" , \"Gold Trend 1.6\" , 165)",
+		"print(Gol.getTotal())",
+		"",
+		"#Tipado",
+		"if type(Gol) == coche:",
+		"print(\"La clase es de tipo coche\")"
+
+	],
+
+	"description": "Objetos completos"
+}  ,
+
+"Objetos completos 2" : {
+	"prefix": "obj",
+	"body": [
+		"class Persona:",
+		"\"\"\"Nombre",
+		"Apellido",
+		"Altura",
+		"Edad\"\"\"",
+		"#--------------GETTERS--------------",
+		"def getNombre(self):",
+			"return (self.nombre)",
+		"def getApellido(self):",
+			"return (self.Apellido)",
+		"def getAltura(self):",
+			"return (self.Altura)",
+		"def getEdad(self):",
+			"return (self.Edad)",
+
+		"#--------------SETTERS--------------",
+		"def setNombre(self , NuevoNombre):",
+			"self.nombre = NuevoNombre",
+		"def setApellido(self , NuevoApellido):",
+			"self.Apellido = NuevoApellido",
+		"def setAltura(self , NuevaAltura):",
+			"self.Altura = NuevaAltura",
+		"def setEdad(self , NuevaEdad):",
+			"self.Edad = NuevaEdad",
+
+		"#--------------OTRAS-------------------",
+		"def Hablar(self):",
+			"return (\"Estoy hablando\")",
+		"def Caminar(self):",
+			"return (\"Estoy caminando\")",
+		"def Dormir(self):",
+			"return (\"Estoy durmiendo\")",
+
+	"class Informatico(Persona):",
+		"\"\"\"Lenguajes",
+		"Experiencia\"\"\"",
+
+		"#Constructor--------------------------------------------------",
+		"def __init__(self):",
+			"self.Lenguajes = \"HTML , JAVASCRIP , CSS \"",
+			"self.Experiencia = 5",
+		"# Fin del constructor ----------------------------------------",
+
+		"#--------------SETTERS--------------",
+		"def setLenguajes(self):",
+			"return self.Lenguajes",
+		"def Aprender(self , NuevoLenguaje):",
+			"self.Lenguajes = NuevoLenguaje",
+
+		"#--------------GETTERS-------------",
+		"def getLenguajes(self):",
+			"return(self.Lenguajes)",
+		"def getExperiencia(self):",
+			"return(self.Experiencia)",
+
+
+		"#--------------OTRAS----------------",
+		"def Programar(self):",
+			"return (\"Estoy programando\")",
+		"def Reparar(self):",
+			"return (\"Estoy reparando\")",
+
+	"class TecnicoDeRedes(Informatico):",
+		"def __init__(self):",
+			"self.AuditarRedes = 'Experto'",
+			"self.ExperienciaEnRedes = 15",
+
+		"def Auditoria(self):",
+			"return(\"Estoy auditando una red\")",
+		"#Herencia",
+
+		"import clases",
+
+		"perfil1 = clases.Persona()",
+		"perfil1.setNombre(\"Lucas\")",
+		"perfil1.setApellido(\"Quiroga\")",
+		"perfil1.setEdad(38)",
+		"perfil1.setAltura(1.69)",
+
+		"print (perfil1.getNombre())",
+		"print (perfil1.Hablar())",
+
+		"informatico1 = clases.Informatico()",
+		"informatico1.setNombre(\"Juan\")",
+		"informatico1.setApellido(\"Salomon\")",
+		"informatico1.setAltura(1.60)",
+
+		"print(informatico1.getLenguajes())",
+		"print(informatico1.getExperiencia())",
+	],
+	"description": "Objetos completos"
+} ,
+
+"Sqlite3 Completo" : {
+	"prefix": "sqli",
+	"body": [
+	"import sqlite3",
+
+	"# Aqui nos conectamos a sqlite",
+	"conexion = sqlite3.connect(\"19-Bases-de-datos/pruebas.db\")",
+
+	"#Creamos tabla",
+	"cursor = conexion.cursor()",
+
+"cursor.execute(\"CREATE TABLE IF NOT EXISTS productos(\" +",
+"\"id INTEGER PRIMARY KEY AUTOINCREMENT,\" +",
+"\"titulo VARCHAR(255),\" +",
+"\"descripcion text,\" +",
+"\"precio int(255)\" +",
+"\")\")",
+
+"#Guardar cambios",
+"conexion.commit()",
+
+"#Instertar Datos",
+"cursor.execute(\"INSERT INTO productos VALUES (null, \"Primer producto\" , \"Descripcion del producto\" , 550) \")",
+"conexion.commit()",
+
+"Listar los productos",
+"cursor.execute(\"SELECT * FROM productos;\")",
+"productos = cursor.fetchall()",
+"for producto in productos:",
+    "print(f\"Nombre: {producto[1]}\")",
+
+"producto = cursor.fetchone()",
+"cursor.execute(\"SELECT titulo FROM productos;\")",
+"print(productos)",
+
+"cursor.executemany(\"INSERT INTO productos VALUES (null , ? , ? , ?)\" , productos)",
+"conexion.commit()",
+
+"#Para borrar",
+"cursor.execute(\"DELETE * FROM productos\")",
+"cursor.commit()",
+
+
+"#Cerrar la conexion",
+"conexion.close()",
+
+	],
+	"description": "Sqlite3 Completo"
+} ,
+
+"csv bien hecho en excel" : {
+	"prefix": "csv",
+	"body": [
+		"creacion = open(\"Data/camion.csv\" , \"w\")",,
+		"creacion.writelines([\"Nombre\",\",\",\"Cajones\",\",\",○\"Precio\",\"\n\"])",
+	],
+	"description": "csv bien hecho en excel"
+}  ,
+
+"Leer csv" : {
+	"prefix": "csv",
+	"body": [
+
+	"def costo_camion(archivo):",
+	"import csv",
+	"Nombre =\"Data/\" + archivo + \".csv\"",
+	"try:",
+		"with open( Nombre , \"r\" , encoding=\"utf8\") as Creacion:",
+			"Total = 0",
+			"Lectura = csv.reader(Creacion)",
+			"next(Creacion)",
+			"for Linea in Lectura:",
+				"Total = Total + (float(Linea[1]) * float(Linea[2]))",
+		"print(f\"El total es: {Total}\")",
+	"except: #Sin agregar nada solo atrapas",
+	"",
+	"except ValueError:",
+		"print(\"Existe un problema con el archivo selecionado\")",
+	"except FileNotFoundError:",
+		"print(\"El archivo no se encuentra en el directorio\")",
+	"except IndexError:",
+		"print(\"El archivo contiene columnas diferentes para poder realizar los calculos solicitados\")",
+		"except (IOError, LookupError, RuntimeError) as e: #Se pueden hacer varias a la vez",
+		"except Exception # Para agarrar la que sea",
+		"",
+		"else:",
+	"print(\"todo funciono correctamente\")",
+	"Finally:",
+	"print(\"Buenisimo\")",
+	"",
+	"raise ValueError(\"No es correcto\")",
+	],
+	"description": "Manejo de Errores"
+}  ,
+
+"Commandline" : {
+	"prefix": "command",
+	"body": [
+
+	"import sys",
+	"archivo = \"\"",
+	"if len(sys.argv) == 2:",
+		"archivo = sys.argv[1]",
+	"else:",
+		"archivo = \"camion\"",
+	"costo_camion(archivo)",
+	"#Desde DOS escribis la funcion y al lado el argumento",
+
+	],
+	"description": "Manejo de Errores"
+} ,
+
+"Leer Keys y Values en Lista de Diccionarios con key y Value" : {
+	"prefix": "dic",
+	"body": [
+
+	"ListaLineaCamion = list(LineaCamion.kes())",
+	"ListaLineaCamion = list(LineaCamion.values())",
+
+	"# Cuando ya tenes separadas las keys y values y lo consolidas en un pequeño diccionario",
+	"OtroDicionario = dict(zip(Cabecera,Linea)) ",
+
+	],
+	"description": "Manejo de Errores"
+} ,
+
+"Redondear" : {
+	"prefix": "redon",
+	"body": [
+	"round((TotalCostos - Total), 2)"
+	],
+	"description": "Redondear"
+} ,
+
+"Contar elementos en una lista" : {
+	"prefix": "cont",
+	"body": [
+		"from collections import Counter",
+		"Counter(ListaParaConteo))",
+
+		"#Contar cual es el mas comun de todos",
+		"ContandoEjemplares.most_common(5))",
+	],
+	"description": "Contar elementos en una lista"
+} ,
+
+"F String" : {
+	"prefix": "fstr",
+	"body": [
+		"print(f\"{'':>5s} {0:>5d} {1:>5d} {3:>5d} {4:>5d} {5:>5d} {6:>5d} {7:>5d} {8:>5d} {9:>5d}\")",
+		"{nombre:>10s} {cajones:10d} {precio:10.2f}'.format_map(s)",
+	],
+	"description": "Contar elementos en una lista"
+} ,
+
+"Busqueda Lineal" : {
+	"prefix": "busq",
+	"body": [
+
+	"def BusquedaLineal(Lista, Buscado):",
+    "Posicion = -1",
+    "for indice , elemento in enumerate(Lista):",
+    "	if elemento == Buscado:",
+    "		Posicion = indice",
+    "		break",
+    "return(Posicion)",
+	] ,
+
+	"description": "Busqueda Lineal"
+} ,
+
+"Invertir lista" : {
+	"prefix": "inv",
+	"body": [
+
+		"def invertir_lista(Lista):",
+			"invertida = list(range(len(Lista)))",
+			"for indice, elemento in enumerate(Lista):",
+				"invertida[len(Lista) - indice - 1] = elemento",
+			"return invertida",
+	] ,
+
+	"description": "Invertir la lista"
+} ,
+
+"Compresion de lista" : {
+	"prefix": "comp",
+	"body": [
+		"convertido = [Funcion(Valor) for Funcion, Valor in zip(types, LineaActual)]",
+		"PrecioLeidoKeys , PrecioLeidoValues = [fruta for fruta , precio in PrecioLeido] , [precio for fruta , precio in PrecioLeido]",
+    	"PrecioLeidoKeys , PrecioLeidoValues = map(list, zip(*PrecioLeido))",
+
+	] ,
+
+	"description": "Compresion de la lista"
+} ,
+
+"Separador en Lista" : {
+	"prefix": "split",
+	"body": [
+		"record[\"date\"].split(\"/\")"
+	] ,
+
+	"description": "Separador en Lista"
+} ,
+
+"Juntar caracteres" : {
+	"prefix": "join",
+	"body": [
+		"\"\".join(Lista)"
+	] ,
+
+	"description": "Juntar caracteres"
+} ,
+
+"Plotear" : {
+	"prefix": "Plot",
+	"body": [
+
+	"import matplotlib.pyplot as plt",
+	"#Histograma",
+	"plt.scatter(diametros,altos)",
+	"plt.show()",
+	"plt.hist(ResultadosObtenidos,bins=150)",
+	"plt.ylabel(\"Ocurrencia\")",
+	"plt.xlabel(\"Cantidad de Paquetes\")",
+	"plt.show()",
+	"",
+	"plt.plot(X, C)",
+	"plt.show()",
+
+
+	"# Crea una figura nueva, de 8x6 pulgadas, con 80 puntos por pulgada",
+	"plt.figure(figsize=(8, 6), dpi=80)",
+
+	"# Crea un nuevo subplot, en una grilla de 1x1",
+	"plt.subplot(1, 1, 1)",
+
+	"X = np.linspace(-np.pi, np.pi, 256)",
+	"C, S = np.cos(X), np.sin(X)",
+
+	"# Plotea el coseno con una línea azul contínua de ancho 1 (en pixeles)",
+	"plt.plot(X, C, color=\"blue\", linewidth=1.0, linestyle=\"-\")",
+
+	"# Plotea el seno con una línea verde contínua de ancho 1 (en pixeles)",
+	"plt.plot(X, S, color=\"green\", linewidth=1.0, linestyle=\"-\")",
+
+	"# Rango del eje x",
+	"plt.xlim(-4.0, 4.0",
+
+	"# Ponemos marcas (ticks) en el eje x",
+	"plt.xticks(np.linspace(-4, 4, 9))",
+
+	"# Rango del eje y",
+	"plt.ylim(-1.0, 1.0)",
+
+	"# Ponemos marcas (ticks) en el eje y",
+	"plt.yticks(np.linspace(-1, 1, 5))",
+
+	"# Podemos grabar el gráfico (con 72 dpi)",
+	"# plt.savefig(\"ejercicio_2.png)\", dpi=72)",
+
+	"# Mostramos el resultado en pantalla",
+	"plt.show()",
+
+	"X = np.linspace(-(np.pi), (np.pi), 256)",
+	"C, S = np.cos(X), np.sin(X)",
+	"plt.plot(X, C)",
+	"plt.plot(X, S)",
+	"plt.plot(X, C, color=\"blue\", linewidth=2.5, linestyle = \"-\", label = \"coseno\")",
+	"plt.plot(X, S, color=\"red\",  linewidth=2.5, linestyle = \"-\", label = \"seno\")",
+
+	"plt.legend(loc='upper left')",
+	"plt.grid()",
+	"plt.ylabel(\"Seno y Coseno\")",
+	"plt.xlabel(\"angulo\")",
+	"plt.title(\"Grafico Posta\")",
+
+	"ax = plt.gca()  # gca es 'get current axis' ó 'tomar eje actual'",
+	"ax.spines['right'].set_color('none')",
+	"ax.spines['top'].set_color('none')",
+	"ax.xaxis.set_ticks_position('bottom')",
+	"ax.spines['bottom'].set_position(('data',0))",
+	"ax.yaxis.set_ticks_position('left')",
+	"ax.spines['left'].set_position(('data',0))",
+
+
+	"t = 2 * np.pi / 3",
+	"plt.plot([t, t], [0, np.cos(t)], color='blue', linewidth=2.5, linestyle=\"--\")",
+	"plt.scatter([t, ], [np.cos(t), ], 50, color='blue')",
+
+	"plt.annotate(r'$cos(\frac{2\pi}{3})=-\frac{1}{2}$',",
+	"			xy=(t, np.cos(t)), xycoords='data',",
+	"			xytext=(-90, -50), textcoords='offset points', fontsize=16,",
+	"			arrowprops=dict(arrowstyle=\"->\", connectionstyle=\"arc3,rad=.2\"))",
+
+	"plt.plot([t, t],[0, np.sin(t)], color='red', linewidth=2.5, linestyle = \"--\")",
+	"plt.scatter([t, ],[np.sin(t), ], 50, color='red')",
+
+	"plt.annotate(r'$sin(\frac{2\pi}{3})=\frac{\sqrt{3}}{2}$',",
+	"			xy=(t, np.sin(t)), xycoords='data',",
+	"			xytext=(+10, +30), textcoords='offset points', fontsize=16,",
+	"			arrowprops=dict(arrowstyle=\"->\", connectionstyle=\"arc3,rad=.2\"))",
+
+	"for label in ax.get_xticklabels() + ax.get_yticklabels():",
+    "label.set_fontsize(16)",
+    "label.set_bbox(dict(facecolor='white', edgecolor='None', alpha=0.65))",
+
+
+	"plt.show()",
+
+	"# Para hacer subplots",
+	"fig = plt.figure()",
+	"plt.subplot(2, 1, 1) # define la figura de arriba",
+	"plt.plot([0,1,2],[0,1,0]) # dibuja la curva",
+	"plt.xticks([]), plt.yticks([]) # saca las marcas",
+
+	"plt.subplot(2, 3, 4) # define la primera de abajo, que sería la tercera si fuera una grilla regular de 2x2",
+	"plt.plot([0,1],[0,1])",
+	"plt.xticks([]), plt.yticks([])",
+
+	"plt.subplot(2, 3, 5) # define la segunda de abajo, que sería la cuarta figura si fuera una grilla regular de 2x2",
+	"plt.plot([0, 1], [1, 1])",
+	"plt.xticks([]), plt.yticks([])",
+
+	"plt.subplot(2, 3, 6) # define la segunda de abajo, que sería la cuarta figura si fuera una grilla regular de 2x2",
+	"plt.plot([0,1],[1,0])",
+	"plt.xticks([]), plt.yticks([])",
+
+	"plt.show()"
+
+	] ,
+
+	"description": "Plotear"
+} ,
+
+"Random" : {
+	"prefix": "rando",
+	"body": [
+
+	"#Con Repeticion",
+	"Caras = [\"uno\" , \"dos\" , \"tres\" , \"cuatro\" , \"cinco\" , \"seis\"]",
+	"UnaTirada = (random.choices(Caras , k=5))",
+	"random.randint(1,6)",
+	"#Misma Semilla",
+	"random.seed(12365)",
+
+	"random.choice(naipes)",
+	"random.choices(naipes, k=3) #Con reposicion",
+	"random.sample(naipes,k=3) #Sin Reposicion",
+	"random.shuffle(naipes) # Mezcla o revuelve",
+	"n1 = naipes.pop() # Quita de lalista sin reponer",
+	"random.normalvariate(0,1) #Variable normal con media 0 y varianza 1",
+
+
+	] ,
+
+	"description": "Random"
+} ,
+
+"Numpy" : {
+	"prefix": "nump",
+	"body": [
+
+	"import numpy as np",
+	"temperaturas = np.load(\"Data/Temperaturas.npy\")",
+	"# Crea un arreglo con ceros",
+	"np.zeros(2)",
+	"#Crea un arreglo con unos",
+	"np.ones(2)",
+
+	"#Crea valores random a partir del estado de la memoria",
+	"np.empty(2)",
+
+	"#Vector con rango 4",
+	"np.arange(4)",
+
+	"#Vector del 2 al 9 moviendose de a 2",
+	"np.arange(2, 9, 2)",
+	"b = np.linspace(1 , 19 , num = 10 , dtype=np.int8)",
+
+	"arr = np.array([2, 1, 5, 3, 7, 4, 6, 8]) #Crear",
+
+	"np.sort(arr)  #ordenar",
+
+	"np.concatenate((a, b)) #Concatenar",
+
+	"np.ndim(arreglo) #Cantidad de ejes que tiene, el orden de la matriz",
+
+	"#Da una  tupla con la cantidas de filas y columnas",
+	"np.shape(Arreglo)",
+	"Arreglo.shape()",
+
+
+	"#Podes cambiar el formato de un vector a matriz de 3 x 2 si es 6 la cantidad de elementos",
+	"b = a.reshape(3, 2)",
+
+	"#Agregas manual una fila",
+	"vec_fila = a[np.newaxis, :]",
+
+	"print(a[a < 5]) #Mayores de 5",
+	"pares = a[a%2==0] #Pares",
+	"c = a[(a > 2) & (a < 11)] # Rango",
+
+	"five_up = (a > 5) | (a == 5) #Da una matriz de valores booleanos",
+
+	"np.nonzero() # Para elementos distintos de cero",
+
+	"#Para imprimir los indices de los elementos que son menores a 5",
+	"b = np.nonzero(a < 5)",
+	"print(b)",
+	"(array([0, 0, 0, 0]), array([0, 1, 2, 3]))",
+
+	"b2 = a[1, :].copy() # Copiar valores de un lado a otro",
+
+	"ones = np.ones(2, dtype=int)",
+
+	"a.sum()",
+	"a.min()",
+
+	"b.sum(axis=0) #Suma datos de cada columna",
+
+	"data[0, 1] # Elemento especifico",
+
+	"data[1:3] # Sin tomar la primera fila",
+
+	"data[0:2, 0] # Sin tomar la ultima fila, solo elementos de la columna cero",
+
+	"data.max(axis=0) #Da el maximo por Columna, porque va por fila",
+
+	"data.max(axis=1) # Maximo por Fila, porque va por columna",
+
+	"np.random.random(3) # Vector con 3 elementos aleatorios",
+
+	"np.save('filename', a) #Guardar",
+	"b = np.load('filename.npy')",
+	"np.savetxt",
+	"np.loadtxt(\"new_file.csv\")",
+
+
+	] ,
+
+	"description": "Numpy"
+} ,
+
+"Debugger full" : {
+	"prefix": "debugg",
+	"body": [
+
+	"# %% [markdown]",
+	"# # Primer Titulo",
+	"# ## Retroceder Nunca, Rendirse Jamas..",
+	"# **Hola como estas**",
+
+	] ,
+
+	"description": "Debugger full"
+}  ,
+
+"Debugger" : {
+	"prefix": "debugg",
+	"body": [
+	"#--------------------------------------------------------------------",
+	"# %%",
+	"# ",
+
+	] ,
+
+	"description": "Debugger"
+} ,
+
+"Convertir nombres de columnas en indices ": {
+	"prefix": "conv",
+	"body": [
+
+		"[encabezados.index(nombre_columna) for nombre_columna in select]"
+
+		],
+
+	"description": "Convertir nombres de columnas en indices"
+} ,
+
+"Castear valores a valores correctos": {
+	"prefix": "cast",
+	"body": [
+
+		"fila = [func(val) for func, val in zip(types, fila)]"
+
+		],
+
+	"description": "Castear valores a valores correctos"
+}  ,
+
+"Copiar profundo": {
+	"prefix": "copy",
+	"body": [
+
+		"# import copy",
+		"Mazo = copy.deepcopy(Naipes)",
+
+		"# No hay que importar nada",
+		"copia = secuencia.copy()",
+
+		],
+
+	"description": "Copiar profundo"
+}  ,
+
+"Counter": {
+	"prefix": "coun",
+	"body": [
+
+		"from collections import Counter",
+		"tenencias = Counter()",
+		"tenencias[s['nombre']] += s['cajones']",
+		"# El que mas se repite",
+		"tenencias.most_common(3)",
+
+		],
+
+	"description": "Counter"
+} ,
+
+"Mas se repite": {
+	"prefix": "coun",
+	"body": [
+
+		"from collections import Counter",
+		"tenencias.most_common(3)",
+
+		],
+
+	"description": "Mas se repite"
+} ,
+
+"encabezado del import": {
+	"prefix": "impo",
+	"body": [
+
+		"# Import",
+		"# %%",
+		"",
+		"",
+		"",
+
+		],
+
+	"description": "encabezado del import"
+} ,
+
+"encabezado del import": {
+	"prefix": "encab",
+	"body": [
+
+		"# Import",
+		"# %%",
+		"",
+		"",
+		"",
+		],
+	"description": "encabezado del import"
+} ,
+
+"encabezado del main en funcion": {
+	"prefix": "encab",
+	"body": [
+		"## Funcion principal: Main ------------------------------------------------------------------------------------",
+		"# %%",
+		"def main():",
+		"# El main como programa principal",
+		],
+	"description": "encabezado del main en funcion"
+} ,
+
+"encabezado del main en main": {
+	"prefix": "encab",
+	"body": [
+		"# Main  -------------------------------------------------------------------------------------------------------",
+		"# %%",
+		"if __name__ == '__main__':",
+		"	main()",
+		],
+	"description": "encabezado del main en main"
+},
+
+"Encabezado general de funciones ": {
+	"prefix": "def",
+	"body": [
+
+		"# Funciones ---------------------------------------------------------------------------------------------------",
+		"",
+		"",
+
+	],
+	"description": "Encabezado general de funciones"
+
+} ,
+"Otra URL ": {
+	"prefix": "def",
+	"body": [
+
+		"def nuevaURL(request):",
+		"	return (HttpResponse())"
+	],
+	"description": "Nueva URL o pantalla, vista, jsp"
+
+} ,
+
+"Encabezado Total commandline ": {
+	"prefix": "encab",
+	"body": [
+		"\"\"\"------------------------------------------------------------------------------------------------------------",
+		"Costo Camion modificado para importar modulos.",
+		"Ing.Lucas F. Quiroga H. Fecha: 17/04/2021 Retroceder nunca, rendirse jamas",
+		"------------------------------------------------------------------------------------------------------------\"\"\"",
+		"# Import",
+		"# %%",
+		"",
+		"",
+		"",
+
+		"# Funciones ---------------------------------------------------------------------------------------------------",
+		"",
+		"",
+		"",
+		"",
+		"",
+		"",
+		"## Funciones: Funcion principal Main --------------------------------------------------------------------------",
+		"# %%",
+		"def main(Parametros):",
+		"# El main como programa principal",
+		"# El main como programa principal",
+    	"archivo1 = \"\"",
+    	"archivo2 = \"\"",
+    	"if len(sys.argv) != 3:",
+		"# Distinto de 3 porque en este ejemplo esta el .py y 2 argumentos",
+        "	raise SystemExit(f'Uso adecuado: {sys.argv[0]} ' 'archivo_camion archivo_precios')",
+		"#sys.argv[0] es el .py que se esta ejecutando, sys.argv[1 el primer argumento despues de llamar al .py] ",
+    	"archivo1 = sys.argv[1]",
+    	"archivo2 = sys.argv[2]",
+		"",
+    	"informe_camion(archivo1 , archivo2)",
+		"# Main  -------------------------------------------------------------------------------------------------------",
+		"# %%",
+		"if __name__ == '__main__':",
+    	"	main(sys.argv)",
+	],
+	"description": "Encabezado total"
+
+} ,
+
+"Assert en lugar de if ": {
+	"prefix": "assert",
+	"body": [
+
+		"assert divisor != 0, 'El divisor no puede ser 0'",
+		"return dividendo / divisor",
+
+	],
+	"description": "Assert en lugar de if "
+
+} ,
+
+"String Variedades ": {
+	"prefix": "string",
+	"body": [
+
+		"s.endswith(suffix)     # Verifica si termina con el sufijo",
+		"s.find(t)              # Primera aparición de t en s (o -1 si no está)",
+		"s.index(t)             # Primera aparición de t en s (error si no está)",
+		"s.isalpha()            # Verifica si los caracteres son alfabéticos",
+		"s.isdigit()            # Verifica si los caracteres son numéricos",
+		"s.islower()            # Verifica si los caracteres son minúsculas",
+		"s.isupper()            # Verifica si los caracteres son mayúsculas",
+		"s.join(slist)          # Une una lista de cadenas usando s como delimitador",
+		"s.lower()              # Convertir a minúsculas",
+		"s.replace(old,new)     # Reemplaza texto",
+		"s.split([delim])       # Parte la cadena en subcadenas",
+		"s.startswith(prefix)   # Verifica si comienza con un sufijo",
+		"s.strip()              # Elimina espacios en blanco al inicio o al final",
+		"s.upper()              # Convierte a mayúsculas",
+		"s = 'Hello'",
+		"l = s.lower()     # 'hello'",
+		"u = s.upper()     # 'HELLO'",
+		"",
+		"s = 'Hello world'",
+		"t = s.replace('Hello' , 'Hallo')   # 'Hallo world'",
+		"",
+		"a = 'Hello world'",
+		"b = a[0]          # 'H'",
+		"c = a[4]          # 'o'",
+		"d = a[-1]         # 'd' (fin de cadena)",
+		"d = a[:5]     # 'Hello'",
+		"e = a[6:]     # 'world'",
+		"f = a[3:8]    # 'lo wo'",
+		"g = a[-5:]    # 'world'",
+
+	],
+	"description": "String Variedades"
+
+} ,
+
+"Modulo para cambio de fechas ": {
+	"prefix": "re",
+	"body": [
+
+		"texto = 'Hoy es 6/8/2020. Mañana será 7/8/2020.'",
+		"# Encontrar las apariciones de una fecha en el texto",
+		"import re",
+		"re.findall(r'\d+/\d+/\d+', texto)",
+		"#Resultado ['6/8/2020', '7/8/2020']",
+		"# Reemplazá esas apariciones, cambiando el formato",
+		"re.sub(r'(\\d+)/(\\d+)/(\\d+)', r'\\3-\\2-\\1', texto)",
+		"#Resultado 'Hoy es 2020-8-6. Mañana será 2020-8-7.'",
+
+	],
+	"description": "Modulo para cambios de fechas"
+
+} ,
+
+"Funcion Busqueda del Maximo" : {
+	"prefix": "busq",
+	"body": [
+	"## Funciones: Busqueda de Maximo ------------------------------------------------------------------------------",
+	"# %%",
+	"def maximo(Lista):",
+	"Maximo = -9999",
+	"for elemento in Lista:",
+	"	if elemento > Maximo:",
+	"		Maximo = elemento",
+	"return(Maximo)",
+	] ,
+
+	"description": "Funcion Busqueda del Maximo"
+} ,
+
+"Funcion Busqueda del Maximo" : {
+	"prefix": "max",
+	"body": [
+	"## Funciones: Busqueda de Maximo ------------------------------------------------------------------------------",
+	"# %%",
+	"def maximo(Lista):",
+	"Maximo = -9999",
+	"for elemento in Lista:",
+	"	if elemento > Maximo:",
+	"		Maximo = elemento",
+	"return(Maximo)",
+	] ,
+
+	"description": "Funcion Busqueda del Maximo"
+} ,
+
+"Funcion Busqueda del Minimo" : {
+	"prefix": "busq",
+	"body": [
+	"## Funciones: Busqueda de Minimo ------------------------------------------------------------------------------",
+	"# %%",
+	"def minimo(Lista):",
+	"Minimo = 0",
+	"for elemento in Lista:",
+	"	if elemento < Minimo:",
+	"		Minimo = elemento",
+	"return(Minimo)",
+	] ,
+
+	"description": "Funcion Busqueda del Minimo"
+} ,
+	"Barra Separadora Larga" : {
+		"prefix": "lin",
+		"body": [
+		"#--------------------------------------------------------------------------------------------------------------",
+		] ,
+		"description": "Barra Separadora Larga"
+		},
+
+	"Barra Separadora" : {
+		"prefix": "sep",
+		"body": [
+			"\"\"\"------------------------------------------------------------------------------------------------------------",
+			"S E P A R A D O R  S E P A R A D O R  S E P A R A D O R  S E P A R A D O R  S E P A R A D O R  S E P A R A D O",
+			"------------------------------------------------------------------------------------------------------------\"\"\"",
+		] ,
+
+		"description": "Barra Separadora"
+		} ,
+
+"Funcion Busqueda del Minimo" : {
+	"prefix": "mini",
+	"body": [
+		"## Funciones: Busqueda de Minimo ------------------------------------------------------------------------------",
+		"# %%",
+		"def minimo(Lista):",
+		"Minimo = 0",
+		"for elemento in Lista:",
+		"	if elemento < Minimo:",
+		"		Minimo = elemento",
+		"return(Minimo)",
+	] ,
+	"description": "Funcion Busqueda del Minimo"
+} ,
+
+"Bloque de prueba - debugger avanzado" : {
+	"prefix": "debug",
+	"body": [
+
+		"\"\"\"------------------------------------------------------------------------------------------------------------",
+		"S E P A R A D O R  -  S E P A R A D O R  -  S E P A R A D O R  -  S E P A R A D O R  -  S E P A R A D O R",
+		"------------------------------------------------------------------------------------------------------------\"\"\"",
+		"# %%",
+		"",
+		"",
+		"# %%",
+		"\"\"\"------------------------------------------------------------------------------------------------------------",
+		"S E P A R A D O R  -  S E P A R A D O R  -  S E P A R A D O R  -  S E P A R A D O R  -  S E P A R A D O R",
+		"------------------------------------------------------------------------------------------------------------\"\"\"",
+
+	] ,
+	"description": "Bloque de prueba - debugger avanzado"
+} ,
+
+"Funcion Busqueda Binaria" : {
+	"prefix": "busq",
+	"body": [
+		"## FUNCIONES FUNCION BUSQUEDA BINARIA -------------------------------------------------------------------------",
+		"# %%",
+		"def busqueda_binaria(lista, x, verbose = False):",
+		"	# Búsqueda binaria",
+		"	# Precondición: la lista está ordenada",
+		"	# Devuelve -1 si x no está en lista;",
+		"	# Devuelve p tal que lista[p] == x, si x está en lista",
+		"	if verbose:",
+		"		print(f'[DEBUG] izq |der |medio')",
+		"	pos = -1 # Inicializo respuesta, el valor no fue encontrado",
+		"	izq = 0",
+		"	der = len(lista) - 1",
+		"	Contador = 0",
+		"	while izq <= der:",
+		"		Contador += 1",
+		"		medio = (izq + der) // 2",
+		"		if verbose:",
+		"			print(f'[DEBUG] {izq:3d} |{der:>3d} |{medio:3d}')",
+		"		if lista[medio] == x:",
+		"			pos = medio     # elemento encontrado!",
+		"		if lista[medio] > x:",
+		"			der = medio - 1 # descarto mitad derecha",
+		"		else:               # if lista[medio] < x:",
+		"			izq = medio + 1 # descarto mitad izquierda",
+		"	return pos , Contador",
+	] ,
+
+	"description": "Funcion Busqueda Binaria"
+} ,
+
+"Bloque Datetime" : {
+	"prefix": "dat",
+	"body": [
+		"import datetime",
+		"fecha_hora = datetime.datetime.now() #Fecha y hora ya",
+		"fecha = datetime.date.today() # Fecha de hoy",
+		"print(dir(datetime)) #Para ver todo lo que trae  datetime",
+		"",
+		"#Crea el objeto con esa fecha",
+		"d = datetime.date(2019, 4, 13)",
+		"print(d)",
+		"#Tiempo transcurrido desde 1970",
+		"from datetime import date",
+		"timestamp = date.fromtimestamp(1326244364)",
+		"print('Fecha =', timestamp)",
+		"",
+		"#Obtener el año, el mes y el día por separado",
+		"from datetime import date",
+		"hoy = date.today()",
+		"print('Año actual:', hoy.year)",
+		"print('Mes actual:', hoy.month)",
+		"print('Día actual:', hoy.day)",
+		"print('Día de la semana:', hoy.weekday())",
+		"",
+		"#Representar la hora con un objeto time",
+		"from datetime import time",
+		"a = time()       # time(hour = 0, minute = 0, second = 0)",
+		"print('a =', a)",
+		"",
+		"b = time(11, 34, 56)",
+		"print('b =', b)",
+		"",
+		"c = time(hour = 11, minute = 34, second = 56)",
+		"print('c =', c)",
+		"",
+		"d = time(11, 34, 56, 234566)  # time(hour, minute, second, microsecond)",
+		"print('d =', d)",
+		"",
+		"#Obtener horas, minutos, segundos y micro-segundos",
+		"from datetime import time",
+		"a = time(11, 34, 56)",
+		"print('hour =', a.hour)",
+		"print('minute =', a.minute)",
+		"print('second =', a.second)",
+		"print('microsecond =', a.microsecond)",
+		"",
+		"#Objeto datetime",
+		"from datetime import datetime",
+		"# datetime(year, month, day)",
+		"a = datetime(2020, 4, 21)",
+		"print(a)",
+		"",
+		"#Obtener año, mes, día, hora, minutos, timestamp de un datetime",
+		"#El siguiente código genera un objeto datetime con valores pasados",
+		"#por parámetro y luego imprime la información.",
+		"#En particular, muestra cómo convertir una fecha a timestamp.",
+		"#En general los timestamps son enteros y no tienen en cuenta las décimas de segundos.",
+		"from datetime import datetime",
+		"a = datetime(2021, 4, 21, 6, 53, 31, 342260)",
+		"print('año =', a.year)",
+		"print('mes =', a.month)",
+		"print('día =', a.day)",
+		"print('hora =', a.hour)",
+		"print('minuto =', a.minute)",
+		"print('timestamp =', a.timestamp())",
+		"",
+		"#Un objeto timedelta representa una duración, es decir, la diferencia",
+		"#entre dos instantes de tiempo.",
+		"from datetime import datetime, date",
+		"t1 = date(year = 2021, month = 4, day = 21)",
+		"t2 = date(year = 2020, month = 8, day = 23)",
+		"t3 = t1 - t2",
+		"print(t3)",
+		"",
+		"t4 = datetime(year = 2020, month = 7, day = 12, hour = 7, minute = 9, second = 33)",
+		"t5 = datetime(year = 2021, month = 6, day = 10, hour = 5, minute = 55, second = 13)",
+		"t6 = t4 - t5",
+		"print(t6)",
+		"",
+		"print('tipo de t3 =', type(t3))",
+		"print('tipo de t6 =', type(t6))",
+		"",
+		"#Ejemplo: Imprimir objetos timedelta negativos",
+		"from datetime import timedelta",
+		"t1 = timedelta(seconds = 21)",
+		"t2 = timedelta(seconds = 55)",
+		"t3 = t1 - t2",
+		"print(t3)",
+		"print(abs(t3)) #Tiempo que falta para llegar",
+		"",
+		"# Podés obtener el tiempo medido en segundos usando el método total_seconds()",
+		"from datetime import timedelta",
+		"t = timedelta(days = 1, hours = 2, seconds = 30, microseconds = 100000)",
+		"print('segundos totales =', t.total_seconds())",
+		"",
+		"# Formato de fecha usando strftime()",
+		"from datetime import datetime",
+		"now = datetime.now()",
+		"t = now.strftime('%H:%M:%S')",
+		"print('hora:', t)",
+		"",
+		"%Y - año [0001,..., 2018, 2019,..., 9999]",
+		"%m - mes [01, 02, ..., 11, 12]",
+		"%d - día [01, 02, ..., 30, 31]",
+		"%H - hora [00, 01, ..., 22, 23",
+		"%M - minuto [00, 01, ..., 58, 59]",
+		"%S - segundo [00, 01, ..., 58, 59]",
+	] ,
+	"description": "Bloque Datetime"
+}  ,
+
+"Directorios" : {
+	"prefix": "dir",
+	"body": [
+		"import os",
+		"os.system(\"cls\")",
+		"os.getcwd() # Para saber donde estas parado",
+		"os.chdir(\"C:\\Python/Unsam Python/ejercicios_python\")",
+		"#Para escribir una sola vez el directorio",
+		"Directorio = os.path.join(\"c:\\\" , \"Python\" , \"Unsam Python\" , \"ejercicios_python\")",
+		"os.listdir(directorio)",
+		"#Crear un directorio",
+		"os.mkdir(\"Directorio\") # Tenes que estar parado en el directorio",
+		"# Para renombrar",
+		"os.rename(\"Carpeta\" , \"nuevo nombre\")",
+		"# Para borrar un directorio vacio",
+		"os.rmdir(\"Carpeta\")",
+		"# Para borrar un directorio con datos",
+		"import shutil",
+		"shutil.rmtree('carpeta')",
+		"os.listdir()",
+		"# Para borrar un archivo",
+		"os.remove(\"archivo.txt\")",
+		"",
+		"# Lista todos los directorios y archivos en todas las carpetas de la raiz donde estas parado",
+		"import os"
+		"Directorio = os.path.join(\"c:\\\" , \"Python\" , \"Unsam Python\" , \"Data\" , \"ordenar\")",
+		"for root, dirs, files in os.walk(Directorio):",
+		"	for name in files:",
+		"		if \".png\" in name:",
+		"			print(os.path.join(root, name))",
+		"	for name in dirs:",
+		"		if \".png\" in name:",
+		"			print(os.path.join(root, name))",
+		"",
+		"#Cambiar atributos a un archivo",
+		"import os",
+		"import datetime",
+		"import time",
+		"camino = './rebotes.py'",
+		"stats_archivo = os.stat(camino)",
+		"print(time.ctime(stats_archivo.st_atime))",
+		"fecha_acceso = datetime.datetime(year = 2017, month = 9, day = 21, hour = 19, minute =51, second = 0)",
+		"fecha_modifi = datetime.datetime(year = 2012, month = 9, day = 24, hour = 12, minute =9, second = 24)",
+		"ts_acceso = fecha_acceso.timestamp()",
+		"ts_modifi = fecha_modifi.timestamp()",
+		"os.utime(camino, (ts_acceso, ts_modifi))",
+		"stats_archivo = os.stat(camino)",
+		"print(time.ctime(stats_archivo.st_atime))",
+	],
+
+	"description": "Directorios"
+	} ,
+
+	"Comentario de titulo" : {
+		"prefix": "comen",
+		"body": [
+			"#--------------------------------------------------------------------",
+			"# Comenta aqui",
+		] ,
+		"description": "Comentario de tiempo"
+	} ,
+
+	"Arquitectura Clases y Metodos" : {
+		"prefix": "class",
+		"body": [
+			"class Lote:",
+			"	def __init__(self, nombre, cajones , precio):",
+			"		self.nombre = nombre",
+			"		self.cajones = cajones",
+			"		self.precio = precio",
+			"	def costo(self):",
+			"		costo = self.precio * self.cajones",
+			"		return (costo)",
+			"	def vender(self , cantidad):",
+			"		total = self.precio * cantidad",
+			"		return (total)",
+			"# Metodo Especial para imprimir",
+			"	def __str__(self):",
+			"		return f'({self.nombre} , {self.cajones} , {self.precio})'",
+			"# Metodo Especial para imprimir mas para programadores",
+			"	def __repr__(self):",
+			"		return f'Fruta({self.nombre} , {self.cajones} , {self.precio})'",
+			"",
+			"def crear_formateador(nombre):",
+			"	if nombre == \"txt\":",
+			"		return FormatoTablaTXT()",
+			"	elif nombre == \"csv\":",
+			"		return FormatoTablaCSV()",
+			"	elif nombre == \"html\":",
+			"		return FormatoTablaHTML()",
+			"	else:",
+			"		raise SystemExit (\"No se entiende el formato\")",
+			"#Desde el otro archivo lo llamas como ",
+			"# formateador = formato_tabla.crear_formateador(fmt)",
+			"# imprimir_informe(data_informe , formateador)",
+		] ,
+		"description": "Arquitectura Clases y Metodos"
+	} ,
+
+	"Break , pass y continue" : {
+		"prefix": "brea",
+		"body": [
+		"# break corta el bucle",
+		"# pass Solo para colcocar algo",
+		"# continue obvia todo lo que esta debajo y continua con la siguiente iteracion",
+		] ,
+		"description": "Break , pass y continue"
+	} ,
+
+	"Class Brutal" : {
+		"prefix": "class2",
+		"body": [
+
+			"#Herencia -----------------------------------------------------------------------------------------------------",
+			"class Empleado:",
+			"	def __init__(self, nombre, edad , legajo , sueldo):",
+			"	self.edad = edad",
+			"	self.legajo = legajo",
+			"	self.sueldo = sueldo",
+			"	self.sueldoBase = sueldo",
+			"",	
+			"	def calcularSueldo(self , descuentos , bonos):",
+			"		return self.sueldoBase - descuentos + bonos",
+			"#--------------------------------------------------------------------------------------------------------------",
+			"class AgenteDeVentas(Empleado):",
+			"	def __init__(self, nombre, edad , legajo , sueldo , mostrador):",
+			"		super().__init__(nombre, edad , legajo , sueldo)",
+			"		self.mostrador = mostrador",
+			"#--------------------------------------------------------------------------------------------------------------",
+			"class Tripulante(Empleado):",
+			"	def mostarRenovacionLicencia(self):",
+			"		if self.edad < 50:",
+			"			print(\"Renueva su lincencia cada 1 año\")",
+			"		else:",
+			"			print(\"Re nueva su licencia cada 6 meses\")",
+			"#Ocultamiento y getters y setters -----------------------------------------------------------------------------",
+			"class Materia:"
+			"def __init__(self, nombre , profesor , fecha):",
+			"	self.nombre = nombre",
+			"	self.profesor = profesor",
+			"	self.fechaInicioDictado = fecha",
+			"",
+			"@property #Getter",
+			"def fechaInicioDictado (self):",
+			"	return self._fechaInicioDictado"
+			"",
+			"@fechaInicioDictado.setter #Setter",
+			"def fechaInicioDictado(self , fecha):",
+			"	if fecha < 2006:",
+			"		self._fechaInicioDictado = 2006",
+			"	else:",
+			"		self._fechaInicioDictado = fecha",
+		] ,
+		"description": "Class Brutal"
+	},
+
+"Clase: Init" : {
+	"prefix": "init",
+	"body": [
+	"def __init__(self, nombre, cajones , precio):",
+	"	self.nombre = nombre",
+	"	self.cajones = cajones",
+	"	self.precio = precio",
+	] ,
+	"description": "Clase: Init"
+} ,
+
+"Clase: Metodo" : {
+	"prefix": "metodo",
+	"body": [
+	"def costo(self):",
+	"	costo = self.precio * self.cajones",
+	"	return (costo)",
+	] ,
+	"description": "Clase: Metodo"
+} ,
+
+"Clase: repr" : {
+"prefix": "repr",
+"body": [
+"def __repr__(self):",
+"	return f\"Lote({self.nombre} , {self.cajones} , {self.precio})\"",
+] ,
+"description": "Clase: repr"
+} ,
+
+"Clase: str" : {
+"prefix": "str",
+"body": [
+"def __str__(self):",
+"	return f\"({self.nombre} , {self.cajones} , {self.precio})\"",
+] ,
+"description": "Clase: str"
+} ,
+
+"Clase: Iterador" : {
+"prefix": "iter",
+"body": [
+	"def __iter__(self):",
+    "    return self.lotes.__iter__()",
+] ,
+"description": "Clase: Iterador"
+}  ,
+
+"Clase: Getitem" : {
+"prefix": "getitem",
+"body": [
+	"def __getitem__(self, index):",
+    "    return self.lotes[index]",
+] ,
+"description": "Clase: Getitem"
+} ,
+
+"Clase: Contain" : {
+"prefix": "contain",
+"body": [
+	"def __contains__(self, nombre):",
+    "    return any([lote.nombre == nombre for lote in self.lotes])",
+] ,
+"description": "Clase: Contain"
+} ,
+
+"Importar a Lucquifer" : {
+"prefix": "lucquifer",
+"body": [
+"import os",
+"os.chdir(\"C:\\Python/Unsam Python/ejercicios_python/Modurama/\")",
+"import Lucquifer as lqf",
+"os.chdir(\"C:\\Python/Unsam Python/ejercicios_python/Clase10\")",
+] ,
+"description": "Importar a Lucquifer"
+} ,
+"Barra Separadora Corta" : {
+	"prefix": "line",
+	"body": [
+	"#--------------------------------------------------------------------",
+	] ,
+	"description": "Barra Separadora Corta"
+	} ,
+	"Lectura de Archivo" : {
+		"prefix": "lect",
+		"body": [
+			"import csv",
+			"with open('..\\Data\\camion.csv' , 'rt' , encoding=\"utf8\") as f:",
+				"Lectura = csv.reader(f) #Lee en formato arreglo para trabajar con partes",
+				"next(Lectura) #Se queda con las cabeceras",
+				"suma = 0",
+				"for line in Lectura:",
+					"suma = suma + float(line[1]) * float(line[2])",
+				"print(suma)",
+		] ,
+		"description": "Lectura de archivo"
+		},
+
+	"Importar a Lucquifer" : {
+	"prefix": "lucquifer",
+	"body": [
+	"import os",
+	"os.chdir(\"C:\\Python/Unsam Python/ejercicios_python/Modurama/\")",
+	"import Lucquifer as lqf",
+	"os.chdir(\"C:\\Python/Unsam Python/ejercicios_python/Clase10\")",
+	] ,
+	"description": "Importar a Lucquifer"
+	} ,
+	"Bloque MySQL" : {
+		"prefix": "mysql",
+		"body": [
+		"import mysql.connector",
+		"database = mysql.connector.connect(",
+			"host = \"localhost\","
+			"user = \"root\",",
+			"passwd = \"\",",
+			"database = \"administracion\"",
+		")",
+		"cursor = database.cursor()",
+		"#--------------------------------------------------------------------",
+		"cursor.execute(\"UPDATE usuarios SET clave = 'RealMadrid'\")"
+		] ,
+		"description": "Bloque MySQL"
+		} ,
+		"Documento HTML" : {
+			"prefix": "doc",
+			"body": [
+				"docHTML = \"\"\"",
+				"<html>",
+				"<body>",
+				"<h1>",
+				"Hora y fecha actuales %s",
+				"<h1/>",
+				"<section>",
+				"<h2>",
+				"<h2/>",
+				"<section/>",
+				"<body/>",
+				"<html/>",
+				"\"\"\" %fecha_actual"
+			] ,
+			"description": "Documento HTML"
+			}
+
+}
